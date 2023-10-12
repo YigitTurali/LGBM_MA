@@ -2,6 +2,13 @@
 
 This repository contains the implementation of the LGBM_MA model. Below is a detailed guide on how to use, contribute, and understand the codebase.
 
+## Paper Reference:
+
+**Title:** [Gradient Boosting With Moving-Average Terms for Nonlinear Sequential Regression](https://ieeexplore.ieee.org/abstract/document/10233101/)
+
+**Abstract:** 
+The paper investigates sequential nonlinear regression and introduces a novel gradient boosting algorithm. This algorithm is inspired by the well-known linear auto-regressive-moving-average (ARMA) models and exploits the residuals, i.e., prediction errors, as additional features. The main idea is to utilize the state information from early time steps contained in the residuals to enhance the performance in a nonlinear sequential regression/prediction framework. By exploiting the changes in the previous time steps through residual terms, the algorithm aims to achieve improved predictive accuracy in the context of boosting.
+
 ## Table of Contents
 
 - [Usage](#usage)
